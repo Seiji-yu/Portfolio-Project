@@ -1,0 +1,145 @@
+.read-more {
+    background-color: #e678b8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.read-more:hover {
+    background-color: #0dadf7;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #E0E0E0;
+    font-weight: bold;
+}
+
+header {
+    user-select: none;
+    background-color: #1A1A1A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#themeToggle {
+    user-select: none;
+    background-color: #e678b8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#themeToggle:hover {
+    background-color: #0dadf7;
+}
+
+section {
+    user-select: none;
+    padding: 20px;
+    margin: 20px;
+    background: #1D1D1D;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #e678b8;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+form button {
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e678b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0dadf7;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: #1A1A1A;
+    color: #E0E0E0;
+    margin-top: 20px;
+}
+
+body.dark-mode {
+    background-color: #333 !important;
+    color: #f4f4f4 !important;
+}
+
+body.dark-mode header {
+    background-color: #222;
+}
+
+body.dark-mode section {
+    background-color: #444;
+    color: #f4f4f4;
+}
+
+body.dark-mode ul li {
+    background-color: #555;
+}
+
