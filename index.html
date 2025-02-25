@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
 
 </head>
 
 <body>
-    <header>
+    <header> <!-- WEBSITE HEADER -->
         <h1>Welcome to my Portfolio</h1>
-        <button id="themeToggle">Toggle Dark Mode</button>
+        <button id="themeToggle">Toggle Dark Mode</button> <!-- Button to toggle dark mode -->
     </header>
 
     <section id="about">
@@ -21,40 +21,44 @@
             skills</p>
     </section>
 
-    <section id="Projects">
+    <section id="Projects"> <!-- Project Section -->
+        <h2> Projects </h2>
         <ul id="projectList">
         </ul>
     </section>
 
-    <section id="skills">
+    <section id="skills"> <!-- Skills  Section -->
         <h2>Skills</h2>
         <ul id="skillsList"></ul>
     </section>
 
-    <section id="contact">
+    <section id="contact"> <!-- Contact Section -->
 
         <h2>Contact Me</h2>
 
         <form id="contactForm">
             <label for="name">Name:</label>
             <input type="text" id="name" required>
+
             <label for="email">Email:</label>
             <input type="text" id="email" required>
+
             <label for="message">Message:</label>
             <textarea id="message" required></textarea>
-            <button type="submit">Send</button>
+
+            <button type="submit">Send</button> <!-- Submit button -->
         </form>
 
-        <p id="formMessage"></p>
+        <p id="formMessage"></p> <!-- Displays form submission status -->
 
     </section>
-    
+
     <footer>
-        <p>© <span id="currentDate"></span></p>
+        <p>© <span id="currentDate"></span></p> <!-- Dynamic current date will be added using JavaScript -->
     </footer>
 
 
-    <script src="script.js"> </script>
+    <script src="script.js"> </script> <!-- Link to external JavaScript file -->
 
 </body>
 
