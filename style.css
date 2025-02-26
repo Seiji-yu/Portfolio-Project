@@ -200,6 +200,10 @@ footer {
     margin-top: 20px;
 }
 
+body {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
 /* Applies dark mode to the entire page */
 body.dark-mode {
     background-color: #333 !important;
@@ -220,10 +224,6 @@ body.dark-mode section {
 /* Dark mode project list */
 body.dark-mode ul li {
     background-color: #555;
-}
-
-body {
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
 header, section, footer, ul li {
