@@ -221,3 +221,11 @@ body.dark-mode section {
 body.dark-mode ul li {
     background-color: #555;
 }
+
+body {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+header, section, footer, ul li {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
